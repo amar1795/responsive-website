@@ -1,0 +1,145 @@
+/* body{
+    background-color: crimson;
+} */
+
+#navigation
+{
+    justify-content: center;
+}
+
+#section1
+{
+    margin: 36px 0px;
+}
+#section1 p {
+    margin: 0px 0px;
+}
+
+/* #cards{
+        display: flex;
+        flex-direction: column;
+} */
+
+
+@media (max-width:572px)
+{
+
+
+#section1 {
+    margin: 0px 0px;
+}
+}
+
+@media (max-width:1460px)
+{
+
+    h1{
+        padding: 28px 0px;
+    }
+    .box {
+        margin: 24px 43px;
+        width: 349px;
+    }
+}
+
+
+
+@media (max-width:1232px)
+{
+    .box {
+            width: 260px;
+    }
+}
+
+@media (max-width:1048px)
+{
+    .box {
+            width: 227px;
+    }
+}
+@media (max-width:990px)
+{
+    .box {
+            width: 177px;
+    }
+}
+
+@media (max-width:800px)
+{
+    .box {
+        margin: 75px 3px;
+    }
+}
+@media (max-width:670px)
+{
+    .box {
+        margin: 75px 3px;
+    }
+}
+
+#section3::before {
+    height: 49%;
+}
+
+#section3 img{
+    margin: 0px 23px;
+
+}
+
+@media (max-width:507px)
+{
+    #section4 input
+    {
+        width: 395px;
+    height: 25px;
+    }
+}
+
+@media (max-width:398px)
+{
+    #section4 input
+    {
+        width: 292px;
+    height: 25px;
+    }
+}
+
+
+@media (max-width:507px)
+{
+    #section4 textarea {
+        width: 350px;
+        border-radius: 20px;
+    }
+}
+@media (max-width:420px)
+{
+    #section4 textarea {
+        width: 294px;
+        border-radius: 20px;
+    }
+}
+
+
+
+#section4::before{
+
+     height: 81%;
+}
+@media (max-width:566px)
+{
+    #cards
+    {
+        flex-direction: column;
+    }
+    
+    .box {
+        margin: 12px 3px;
+    }
+
+}
+
+.client_img
+{
+    overflow: hidden;
+}
